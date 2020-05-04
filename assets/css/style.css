@@ -1,0 +1,89 @@
+
+
+
+
+
+.main-bg {
+    background-image: url("http://getwallpapers.com/wallpaper/full/f/f/7/392269.jpg");
+    height:100px;
+   
+}
+.header
+{
+    border-radius: 1px solid black;
+    height:500px;
+    width:900px;
+    background-color:rgba(122, 180, 255, 0.719);
+    border-style: double;
+    margin: auto;
+}
+
+
+
+h1{
+    color:white;
+    text-decoration: italic;
+    font-size: 50px;
+}
+h2{
+    padding-left:20px;
+}
+
+
+
+#teamone-shoot-button
+{
+    height:50px;
+    width:90px;
+    font-weight: bold;
+    border-radius: 2px solid brown;
+}
+
+
+#teamtwo-shoot-button
+{
+    height:50px;
+    width:90px;
+    font-weight: bold;
+}
+
+#reset-button
+{
+    height:50px;
+    width:90px;
+    font-weight: bold;
+}
+
+color-box {
+    width: 200px;
+    height: 200px;
+}
+
+.gray {
+    background: red;
+    color:whitesmoke;
+}
+
+
+
+
+
+
+
+
+.hide {
+    display: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+   
+}
+.clear {
+    clear: both;
+}
+#reset-container, h1 {
+    text-align: center;
+}
