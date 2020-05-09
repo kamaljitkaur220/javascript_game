@@ -25,7 +25,7 @@ let playSound=function(){
 teamonebutton1.addEventListener("click", function() {
     let newCounterValue1 = Number(team1shots.innerHTML) + 1;
     team1shots.innerHTML = newCounterValue1;
-    let team1 =math.floor(math.random() *100)+1;
+    let team1 =math.floor(Math.random() *100)+1;
     console.log("Team one Shots");
     if (team1 >= 50)
     {
