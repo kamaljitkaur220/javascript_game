@@ -23,15 +23,15 @@ let playSound=function(){
 //teambutton 1
 
 teamonebutton1.addEventListener("click", function() {
-    let newCounterValue1 = Number(team1shots.innerHTML) + 1;
-    team1shots.innerHTML = newCounterValue1;
-    let team1 =math.floor(Math.random() *100)+1;
-    console.log("Team one Shots");
-    if (team1 >= 50)
-    {
-      let newCounterValue2 =Number(team1goals.innerHTML) + 1;
-      team1goals.innerHTML = newCounterValue2;
-      console.log("Team one Score")
+ let newCounterValue1 = Number(team1shots.innerHTML) + 1;
+ team1shots.innerHTML = newCounterValue1;
+ let team1 =Math.floor(Math.random() *100)+1;
+ console.log("Team one Shots");
+ if (team1 >= 50)
+ {
+ let newCounterValue2 =Number(team1goals.innerHTML) + 1;
+ team1goals.innerHTML = newCounterValue2;
+ console.log("Team one Score")
     }
 });
 
